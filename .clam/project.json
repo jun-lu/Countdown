@@ -1,0 +1,21 @@
+{
+    "name": "treasure",
+    "description": "treasure",
+    "lib": ["YUI"],
+    "pageext": ["html"],
+    "pagedirlevel": ["single"],
+    "build": ["merge"],
+    "charset": ["gbk"],
+    "cssns": "treasure",
+    "jsns": "treasure",
+    "pagesDir": "src/pages",
+    "modsDir": "src/mods",
+    "widgetsDir": "src/widgets",
+    "buildDir": "build",
+    "testsDir": "tests",
+    "cdnPath": "http://127.0.0.1/assets",
+    "port": 80,
+    "urls": {},
+    "hosts": "",
+    "json": []
+}

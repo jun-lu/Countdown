@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Countdown</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+<script type="text/javascript" src="../build/CountDown.debug.js"></script>
+</head>
+<body style="font-size:40px;">
+	
+	<script type="text/javascript">
+	var countDown = new CountDown(10000000);
+	countDown.onChange = function( hh, mm, ss, time ){
+		document.body.innerHTML =  hh+":"+mm+":"+ss;// +" "+time;
+	};
+	
+	countDown.start();
+	
+	</script>
+</body>
+</html>
